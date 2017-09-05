@@ -1,8 +1,8 @@
 </div> <!-- /.container -->
-    <footer class="blog-footer">
-      <p class="declaration">Déclaration d'activité enregistrée sous le numéro 52 44 07188 44 auprès du préfet de Région de Pays de la Loire>> code APE : 8559A N° RCS 792 116 105</p>
+    <footer class="blog-footer container-fluid">
+      <p class="declaration">Déclaration d'activité enregistrée sous le numéro 52 44 07188 44 auprès du préfet de Région de Pays de la Loire >> code APE : 8559A N° RCS 792 116 105</p>
       <div class="sous-footer">
-        <div class="legal-mention">
+        <div class="legal-mention col-sm-9">
           <p>Mention légales</p>
           <ul>
             <li><span class="liste">Parc Héliopolis 1 101 avenue Jacques Cartier 44 800 Saint Herblain</span></li>
@@ -11,10 +11,8 @@
             <li><span class="liste">Tel : 02 51 89 01 69</span></li>
           </ul>
         </div>
-        <div class="link">
-          <p>
-            Connexion
-          </p>
+        <div class="link col">
+          <p>Facebook / Linkdin</p>
           
         </div>
       </div>

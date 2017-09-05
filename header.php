@@ -23,13 +23,13 @@
 
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col">
-				<img src="/wp-content/uploads/2017/03/logo-itechsup-sans-d-grad-.png">
+			<div class="col-md-8">
+				<img class="logo" src="/wp-content/uploads/2017/03/logo-itechsup-sans-d-grad-.png">
 			</div>
-			<div class="col">
-				<div class="foad-wrapper">
-					<a class="foad-link" href="http://foad.itechsup.fr">Votre espace</a>
-				</div>
+			<div class="col foad-wrapper">
+				<a class="foad-link" href="http://foad.itechsup.fr">
+					Votre espace
+				</a>
 			</div>
 		</div>
 	</div>
