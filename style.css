@@ -25,3 +25,47 @@ body {
 .foad-link {
 	color: white;
 }
+
+.blog-footer {
+	background-color: #424646;
+	color: white;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+
+}
+
+.declaration{
+	padding: 10%;
+}
+
+.sous-footer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.legal-mention {
+	flex-grow: 6;
+	justify-content: flex-start;
+	text-align: left;
+	padding-left: 10%;
+	padding-right: 10%;
+	color: #d15b14;
+}
+
+.link {
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.liste{
+	color: white;
+}
+
