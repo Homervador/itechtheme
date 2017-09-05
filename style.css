@@ -1,0 +1,27 @@
+/*
+Theme Name: itechtheme
+Author: Jean-François Jung
+Description: "Faites pareil que la v1 mais en responsive"
+Version: 0.0.1
+Tags: joie.
+*/
+/*
+ * Globals
+ */
+
+body {
+  font-family: "Prime";
+  color: #555;
+}
+
+.foad-wrapper {
+	background-color: #d15b14;
+	height: 30px;
+	width: 250px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.foad-link {
+	color: white;
+}
