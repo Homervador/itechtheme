@@ -9,8 +9,30 @@ Tags: joie.
  * Globals
  */
 
+ @font-face{
+    font-family: 'primeregular';
+    src: url('/wp-content/themes/itechtheme/fonts/prime_regular-webfont.eot');
+    src: url('/wp-content/themes/itechtheme/fonts/prime_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/wp-content/themes/itechtheme/fonts/prime_regular-webfont.woff') format('woff'),
+         url('/wp-content/themes/itechtheme/fonts/prime_regular-webfont.ttf') format('truetype'),
+         url('/wp-content/themes/itechtheme/fonts/prime_regular-webfont.svg#primelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'primelight';
+    src: url('/wp-content/themes/itechtheme/fonts/prime_light-webfont.eot');
+    src: url('/wp-content/themes/itechtheme/fonts/prime_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/wp-content/themes/itechtheme/fonts/prime_light-webfont.woff') format('woff'),
+         url('/wp-content/themes/itechtheme/fonts/prime_light-webfont.ttf') format('truetype'),
+         url('/wp-content/themes/itechtheme/fonts/prime_light-webfont.svg#primelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-  font-family: "Prime";
+  font-family: 'primeregular';
   color: #555;
 }
 
@@ -40,7 +62,7 @@ body {
 }
 
 .declaration{
-	padding: 10%;
+	padding: 10px;
 }
 
 .sous-footer {
