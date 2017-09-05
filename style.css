@@ -105,3 +105,10 @@ body {
 	margin-left: 65px;
     margin-top: 15px;
 }
+
+.my-menu {
+	background-color: #424646;
+}
+.nav-link {
+	color: #fff;
+}

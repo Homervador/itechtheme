@@ -33,10 +33,18 @@
 			</div>
 		</div>
 	</div>
-	
-	<div class="">
+	<div class="container-fluid  my-menu">
 
-		<div class="">
-			<h1 class=""><a href="<?php echo get_bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
-			<p class=""><?php echo get_bloginfo( 'description' ); ?></p>
-		</div>
+		<?php
+		wp_nav_menu( array(
+		    'theme_location'	=> 'header-menu',
+		    'depth'				=> 2,
+			'container'			=> 'nav',
+			'container_class'	=> 'nav justify-content-center nav-fill',
+			'container_id'		=> 'bs-example-navbar-collapse-1',
+			'menu_class'		=> 'nav justify-content-center',
+		    'fallback_cb'		=> 'WP_Bootstrap_Navwalker::fallback',
+		    'walker'			=> new WP_Bootstrap_Navwalker())
+		);
+		?>
+	</div>
