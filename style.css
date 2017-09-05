@@ -15,13 +15,28 @@ body {
 }
 
 .foad-wrapper {
-	background-color: #d15b14;
-	height: 30px;
-	width: 250px;
-	border-radius: 5px;
-	text-align: center;
+	padding-top: 30px;
 }
 
 .foad-link {
+	background-color: #d15b14;
+	border-radius: 5px;
 	color: white;
+	text-decoration:none;
+	padding: 5px 60px;
+	text-decoration:none;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.foad-link:hover {
+	color: #d15b14;
+	background-color: white;
+	text-decoration:none;
+	transition: all 0.3s;
+}
+
+.logo {
+	margin-left: 65px;
+    margin-top: 15px;
 }
